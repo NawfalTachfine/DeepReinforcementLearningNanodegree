@@ -1,8 +1,5 @@
-# Personal Work Files for Udacity's Deep Learning Foundations Nanodegree Program
+# Personal Work Files for Udacity's Deep Reinforcement Learning Nanodegree Program
 
-
-## Setup
-(todo) Docker files for CPU and GPU machines.
 
 ## Exercices
 + **01.dynamic programming**
@@ -17,3 +14,6 @@
 + **p1.navigation** - value-based methods.
 + **p2.continuous control** - policy-based methods.
 + **p3.collaboration and competition** - multi-agent RL.
+
+## Setup
+(todo) Docker files for CPU and GPU machines.
