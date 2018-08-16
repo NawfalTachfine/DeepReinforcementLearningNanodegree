@@ -5,12 +5,18 @@
 (todo) Docker files for CPU and GPU machines.
 
 ## Exercices
-+ **01.monte_carlo_control** 
-+ **02.temporal_difference_control**
-+ **03.continuous_space**
-+ **04.deep_q_networks**
 
-## Graded Projects
-+ **00.navigation** - description.
-+ **00.continuous_control** - description.
-+ **00.collaboration_competition** - description.
++ **01.dynamic programming**
++ **02.monte carlo control** 
++ **03.temporal difference control**
++ **04.discretization**
++ **05.tile coding**
+
+
++ **06.deep q networks**
+
+## Labs and Graded Projects
++ **p0.taxi** - general RL.
++ **p1.navigation** - value-based methods.
++ **p2.continuous control** - policy-based methods.
++ **p3.collaboration and competition** - multi-agent RL.
