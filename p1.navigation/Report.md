@@ -1,5 +1,5 @@
 # Project 1 - Navigation
-## Training an RL agent to solve the Unity Banana Collector task
+## Training a DeepRL agent to solve the Unity Banana Collector task
 
 ### Solution
 I started out simple, re-purposing the vanilla Deep Q-Learning Network from the corresponding lesson, with one hidden layer comprised of 64 neurons. To my surprise, it solved the task in **less than 500** episodes! It goes to show how powerful them neural networks are! :smile:
