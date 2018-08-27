@@ -2,9 +2,11 @@
 ## Training a DeepRL agent to solve the Unity Banana Collector task
 
 ### Solution
-I started out simple, re-purposing the vanilla Deep Q-Learning Network from the corresponding lesson, with one hidden layer comprised of 64 neurons. To my surprise, it solved the task in **less than 500** episodes! It goes to show how powerful them neural networks are! :smile:
+I started out simple, re-purposing the vanilla Deep Q-Learning Network from the corresponding lesson, with one hidden layer comprised of 64 neurons. To my surprise, it solved the task in **431** episodes! It goes to show how powerful them neural networks are! :smile:
 
 ![](scores.png)
+
+I let the agent continue its training after solving the task for a total of **1000** episodes. It reached an average score of **15+** per 100 episodes.
 
 There were no changes to the hyper-parameters from the DQN lesson. The network uses a **batch size** of **64** examples and a **learning rate** of **0.0005**. The agent updates the target Q-network **every 4 steps** using a **discount factor** of **0.99**.
 
