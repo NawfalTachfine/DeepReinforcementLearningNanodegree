@@ -2,18 +2,23 @@
 
 
 ## Exercices
-+ **01.dynamic programming**
-+ **02.monte carlo control** 
-+ **03.temporal difference control**
-+ **04.discretization**
-+ **05.tile coding**
-+ **06.deep q networks**
++ **01. Dynamic Programming**
++ **02. Monte Carlo Control** 
++ **03. Temporal Difference Control**
++ **04. Discretization**
++ **05. Tile Coding**
++ **06. Deep Q-Networks**
++ **07. Robotics**
++ **08. Hill Climbing**
++ **09. Cross Entropy**
++ **10. REINFORCE**
+
 
 ## Labs and Graded Projects
-+ **p0.taxi** - general RL.
-+ **p1.navigation** - value-based methods.
-+ **p2.continuous control** - policy-based methods.
-+ **p3.collaboration and competition** - multi-agent RL.
++ **P0. Taxi** - general RL.
++ **P1. Navigation** - value-based methods.
++ **P2. Continuous Control** - policy-based methods.
++ **P3. Collaboration and Competition** - multi-agent RL.
 
 ## Setup
 (todo) Docker files for CPU and GPU machines.
