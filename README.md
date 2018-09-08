@@ -4,12 +4,12 @@
 ## Exercices
 + - [ ] **01. Dynamic Programming**
 + - [x] **02. Monte Carlo Control** 
-+ - [ ] **03. Temporal Difference Control**
-+ - [ ] **04. Discretization**
++ - [x] **03. Temporal Difference Control**
++ - [x] **04. Discretization**
 + - [x] **05. Tile Coding**
 + - [x] **06. Deep Q-Networks**
 + - [ ] **07. Robotics**
-+ - [ ] **08. Hill Climbing**
++ - [x] **08. Hill Climbing**
 + - [x] **09. Cross Entropy**
 + - [ ] **10. REINFORCE**
 
