@@ -11,7 +11,7 @@
 + - [ ] **07. Robotics**
 + - [x] **08. Hill Climbing**
 + - [x] **09. Cross Entropy**
-+ - [ ] **10. REINFORCE**
++ - [x] **10. REINFORCE**
 
 
 ## Labs and Graded Projects
