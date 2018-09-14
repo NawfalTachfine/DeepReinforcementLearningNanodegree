@@ -2,7 +2,7 @@
 
 
 ## Exercices
-+ - [ ] **01. Dynamic Programming**
++ - [x] **01. Dynamic Programming**
 + - [x] **02. Monte Carlo Control** 
 + - [x] **03. Temporal Difference Control**
 + - [x] **04. Discretization**
