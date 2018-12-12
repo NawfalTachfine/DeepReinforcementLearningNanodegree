@@ -2,18 +2,19 @@
 ## Training a DeepRL agent to solve the Unity Single-Agent Reacher task
 
 ### Solution
-I started out simple, re-purposing the vanilla Deep Q-Learning Network from the corresponding lesson, with one hidden layer comprised of 64 neurons. To my surprise, it solved the task in **431** episodes! It goes to show how powerful them neural networks are! :smile:
+This solution is based on the DDPG algorithm, adapted from the pendulum exercise. The agent reaches (no pun intended) an average score of 30 after **186** episodes. 
+The main change I made to the original implementation was to force the initial network weights to be equal for the local and target networks after initializing them, for both actor and critic. This helped the agent start learning much faster. It was inspired by remarks made by Gregorio Mezquita, a fellow student. 
+Both actor and critic networks have 2 **fully-connected hidden layers of 128 nodes**, both trained with a learning rate of **0.001**, using mini-batches of **256**, a replay buffer of **100000**, and a discount of **0.9**. The Ornstein-Uhlenbeck noise has a sigma of **0.1** and the soft update is made using a tau of **0.001**.
+The training seems to be fairly stable for a RL task. The score kept on improving after the goal was reached.
 
-![](scores.png)
-
-I let the agent continue its training after solving the task for a total of **1000** episodes. It reached an average score of **15+** per 100 episodes.
-
-There were no changes to the hyper-parameters from the DQN lesson. The network uses a **batch size** of **64** examples and a **learning rate** of **0.0005**. The agent updates the target Q-network **every 4 steps** using a **discount factor** of **0.99**.
+![](reward_plot.png)
 
 ---
 
 ### Next Steps
-This is barely the beginning and there are plenty of things to improve:
-+ The first noticeable issue is how unstable is the training, seeing how noisy is the reward plot. I suspect using Double DQN would help.
-+ I think the task can be solved faster. I plan to add improvements incrementally to go from vanilla DQN to Rainbow. I am very curious to see how that goes.
-+ Lastly, I plan to give solving the associated visual task a try to see if the Google Deepmind ConvNet architecture generalizes to this environment. Intuitively, I think it would take longer to solve the task but I would like to verify that.
+This is but a first solution and there is a number of ideas I would like to try next:
++ Run training for a much longer number of episodes and see if the average score keeps on improving or it ends up crashing.
++ Tinker some more with network architecture and hyperparameters. I suspect both actor and critic networks can be made smaller.
++ Try solving the task using PPO and compare how both algorithms perform.
++ Tackle the multi-agent case.
+
