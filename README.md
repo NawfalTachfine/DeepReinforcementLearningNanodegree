@@ -13,7 +13,7 @@
 + - [x] **09. Cross Entropy**
 + - [x] **10. REINFORCE**
 + - [ ] **11. Proximal Policy Optimization (PPO)**
-+ - [ ] **12. Deep Deterministic Policy Gradients (DDPG)**
++ - [x] **12. Deep Deterministic Policy Gradients (DDPG)**
 + - [ ] **13. Multi-Agent DDPG**
 + - [ ] **14. AlphaZero**
 
@@ -21,8 +21,8 @@
 ## Labs and Graded Projects
 + - [ ] **P0. Taxi** - general RL.
 + - [x] **P1. Navigation** - value-based methods.
-+ - [ ] **P2. Continuous Control** - policy-based methods.
-+ - [ ] **P3. Collaboration and Competition** - multi-agent RL.
++ - [x] **P2. Continuous Control** - policy-based methods.
++ - [x] **P3. Collaboration and Competition** - multi-agent RL.
 
 ## Setup
 TODO: Dockerfiles for CPU/GPU machines.
