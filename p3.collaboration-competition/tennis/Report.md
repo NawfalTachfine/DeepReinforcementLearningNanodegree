@@ -13,8 +13,8 @@ The scores are quite noisy, as it is often the case with multi-agent tasks, but 
 ---
 
 ### Next Steps
-The is the first solution I tried my hands on. Here are so
+The is the first solution I tried my hands on. Here are some ideas I would like to persue:
 + Experiment further with hyperparameters to solve the task faster.
 + Compare performance with that of other MADDPG variants: shared actors, shared critics, shared actors *and* critics.
-+ Stabilization techniques
-+ Evaluate the same solution on the Soccer task.
++ Evaluate the same solution on the Soccer task and see how well it can generalize.
++ Research stabilization techniques for multi-agent systems.
